@@ -1,0 +1,306 @@
+/* Dashboard.css */
+.dashboard {
+  width: 20%;
+  height: 120vh;
+  background-color: #330099;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 768px) {
+  .dashboard {
+    width: 20%;
+  	height: 120vh;
+  	background-color: #330099;
+  	color: #fff;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  }
+}
+
+.dashboard-header {
+  margin-top: 4px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  .dashboard-header {
+    margin-top: 4px;
+  	text-align: center;
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  }
+}
+
+.dashboard-title {
+  font-weight: bold;
+  color: #fff;
+  margin: 0;
+  font-size: 24px; /* Adjust the text size to 24px */
+}
+
+@media (max-width: 768px) {
+  .dashboard-title {
+		font-weight: bold;
+		color: #fff;
+		margin: 0;
+		font-size: 18px; /* Adjust the text size to 24px */
+	}
+}
+
+.hexagon {
+  display: flex;
+  align-items: center;
+  margin-left: 5px; /* Add margin to align to the left */
+}
+
+@media (max-width: 768px) {
+  .hexagon {
+		display: flex;
+		align-items: center;
+		margin-left: 2px; /* Add margin to align to the left */
+	}
+}
+
+.hexagon-icon {
+  width: 30px; /* Adjust the size of the hexagon */
+  height: 30px; /* Adjust the size of the hexagon */
+  color: #fff; /* Hexagon color */
+}
+
+@media (max-width: 768px) {
+  .hexagon-icon {
+		width: 20px; /* Adjust the size of the hexagon */
+		height: 20px; /* Adjust the size of the hexagon */
+		color: #fff; /* Hexagon color */
+	}
+	
+}
+
+.dashboard-elements {
+  margin-top: 10px;
+	margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .dashboard-elements {
+		margin-top: 10px;
+		margin-left: 7px;
+		display: flex;
+		flex-direction: column;
+	}
+}
+
+.hexagon-icon {
+  width: 30px; /* Adjust the size of the hexagon */
+  height: 30px; /* Adjust the size of the hexagon */
+  color: #fff; /* Hexagon color */
+}
+
+@media (max-width: 768px) {
+  .hexagon-icon {
+		width: 20px; /* Adjust the size of the hexagon */
+		height: 30px; /* Adjust the size of the hexagon */
+		color: #fff; /* Hexagon color */
+	}
+	
+}
+
+.dashboard-element {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+@media (max-width: 768px) {
+  .dashboard-element {
+		display: flex;
+		align-items: center;
+		margin: 7px 0;
+	}
+}
+
+.element-icon {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .element-icon {
+		margin-right: 7px;
+	}
+}
+
+.symbol {
+  font-size: 16px;
+  color: #ffffffbf; /* Symbol color */
+  padding: 5px;
+}
+
+@media (max-width: 768px) {
+  .symbol {
+		font-size: 10px;
+		color: #ffffffbf; /* Symbol color */
+		padding: 3px;
+	}
+}
+
+.square {
+	border: 1px solid #ffffffbf; /* Symbol border */
+  border-radius: 30%;
+}
+
+.element-text {
+  font-size: 16px; /* Text size */
+  color: #ffffffbf; /* Text color */
+}
+
+@media (max-width: 768px) {
+  .element-text {
+		font-size: 10px; /* Text size */
+		color: #ffffffbf; /* Text color */
+	}
+}
+
+.element-arrow {
+  margin-left: auto;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #fff; /* Arrow color */
+}
+
+@media (max-width: 768px) {
+  .arrow {
+		font-size: 18px;
+		color: #fff; /* Arrow color */
+	}
+}
+
+.clicked {
+  background-color: rgba(159, 157, 163, 0.282);
+	color: #fff;
+}
+
+/* Dashboard.css */
+/* ... (Previous CSS code) ... */
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-top: auto; /* Push it to the bottom of the dashboard */
+	margin-bottom: 20px;
+	background-color: rgba(159, 157, 163, 0.282);
+}
+
+@media (max-width: 768px) {
+  user-info {
+		display: flex;
+		align-items: center;
+		margin-top: auto; /* Push it to the bottom of the dashboard */
+		margin-bottom: 15px;
+		background-color: rgba(159, 157, 163, 0.282);
+	}
+}
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgba(51, 0, 153, 0.5); /* Faded background color */
+	border: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+  .circle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		background-color: rgba(51, 0, 153, 0.5); /* Faded background color */
+		border: 2px solid #fff;
+	}
+}
+
+.user-symbol {
+  font-size: 24px;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .user-symbol {
+		font-size: 16px;
+		color: #fff;
+	}
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+	margin-left: 5px;
+}
+
+@media (max-width: 768px) {
+  .user-details {
+		display: flex;
+		flex-direction: column;
+		margin-left: 2px;
+	}
+}
+
+.user-name {
+  font-weight: bold;
+  color: #fff;
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+  .user-name {
+		font-weight: bold;
+		color: #fff;
+		font-size: 10px;
+	}
+}
+
+.user-role {
+  color: #fff;
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .user-role {
+		color: #fff;
+		font-size: 10px;
+	}
+}
+
+.user-arrow {
+  font-size: 24px;
+  color: #fff;
+	margin-left: 90px;
+}
+
+@media (max-width: 768px) {
+  .user-arrow {
+		font-size: 18px;
+		color: #fff;
+		margin-left: 50px;
+	}
+}
+
+/* ... (Remaining CSS code) ... */
+

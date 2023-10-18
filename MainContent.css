@@ -1,0 +1,298 @@
+/* MainContent.css */
+.main-content {
+  width: 80%;
+  height: 120vh;
+  background-color: #f5f5f5;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+		width: 80%;
+		height: 120vh;
+		background-color: #f5f5f5;
+	}
+}
+
+.search-icon {
+  font-size: 18px; /* Adjust the size of the search icon */
+  margin-right: 5px; /* Add margin to the right of the search icon for spacing */
+}
+
+@media (max-width: 768px) {
+  .search-icon {
+		font-size: 14px; /* Adjust the size of the search icon */
+		margin-right: 3px; /* Add margin to the right of the search icon for spacing */
+	}
+}
+
+.squarebox {
+  width: 225px; /* Adjust the width of the square boxes */
+  height: 130px; /* Ensure square dimensions */
+  margin-right: 30px; /* Add margin between the square boxes */
+  background-color: #fff; /* Background color of the square boxes */
+	border-radius: 8px;
+  /* Add other styles as needed */
+}
+
+@media (max-width: 768px) {
+  .squarebox {
+		width: 120px; /* Adjust the width of the square boxes */
+		height: 80px; /* Ensure square dimensions */
+		margin-right: 20px; /* Add margin between the square boxes */
+		background-color: #fff; /* Background color of the square boxes */
+		border-radius: 8px;
+		/* Add other styles as needed */
+	}
+}
+
+
+.with-circle .circle {
+  width: 40%;
+  height: 100%;
+  margin-left: 5px; /* 5px margin from the left */ /* Adjust the top margin */
+	margin-bottom: 8px;
+  border-radius: 50%; /* Make it a circle */
+}
+
+@media (max-width: 768px) {
+  .with-circle .circle {
+		width: 40%;
+		height: 100%;
+		margin-left: 3px; /* 5px margin from the left */ /* Adjust the top margin */
+		margin-bottom: 8px;
+		border-radius: 50%; /* Make it a circle */
+	}
+}
+
+.light-green {
+  background-color: #b2ff66; /* Light green */
+}
+
+.light-purple {
+  background-color: #c98aff; /* Light purple */
+}
+
+.seagreen {
+  background-color: #9FE2BF; /* Seagreen */
+}
+
+.pink {
+  background-color: #ff69b4; /* Pink */
+}
+
+.circle {
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	padding: 20px;
+  border-radius: 50%; /* Keep the same border-radius for a circle */
+}
+
+@media (max-width: 768px) {
+  .circle {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 12px;
+		border-radius: 50%; /* Keep the same border-radius for a circle */
+	}
+}
+
+.dollar-icon {
+  color: #006400; /* Dark green color for the dollar sign icon */
+	font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .dollar-icon {
+		color: #006400; /* Dark green color for the dollar sign icon */
+		font-size: 30px;
+	}
+}
+
+.form-icon {
+  color: #480064; /* Dark green color for the dollar sign icon */
+	font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .form-icon {
+		color: #480064; /* Dark green color for the dollar sign icon */
+		font-size: 30px;
+	}
+}
+
+.coins-icon {
+  color: #002564; /* Dark green color for the dollar sign icon */
+	font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .coins-icon {
+		color: #002564; /* Dark green color for the dollar sign icon */
+		font-size: 30px;
+	}
+}
+
+.lock-icon {
+  color: #64001c; /* Dark green color for the dollar sign icon */
+	font-size: 50px;
+}
+
+@media (max-width: 768px) {
+  .lock-icon {
+		color: #64001c; /* Dark green color for the dollar sign icon */
+		font-size: 30px;
+	}
+}
+
+.graphBox {
+  width: 675px; /* Adjust the width of the square boxes */
+  height: 300px; /* Ensure square dimensions */
+  background-color: #fff; /* Background color of the square boxes */
+	border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .graphBox {
+		width: 400px; /* Adjust the width of the square boxes */
+		height: 300px; /* Ensure square dimensions */
+		background-color: #fff; /* Background color of the square boxes */
+		border-radius: 8px;
+	}
+}
+
+.graph-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+	margin-left: 10px;
+	margin-right: 10px;
+	flex-direction: row-reverse;
+}
+
+@media (max-width: 768px) {
+  .graph-container {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 15px;
+		margin-left: 7px;
+		margin-right: 7px;
+		flex-direction: row-reverse;
+	}
+}
+
+.graph {
+  width: 40px; /* Set a specific width for the columns */
+  height: 200px; /* Set a specific height for the columns */
+  background-color: #cccccc; /* Light gray color for the columns */
+  margin-right: 2px; /* Add margin between each column */
+  position: relative;
+	border-radius: 8px;
+	cursor: pointer; /* Add cursor pointer on hover */
+}
+
+@media (max-width: 768px) {
+  .graph {
+		width: 25px; /* Set a specific width for the columns */
+		height: 120px; /* Set a specific height for the columns */
+		background-color: #cccccc; /* Light gray color for the columns */
+		margin-right: 1px; /* Add margin between each column */
+		position: relative;
+		border-radius: 8px;
+		cursor: pointer; /* Add cursor pointer on hover */
+	}	
+}
+
+.graph:hover {
+  background-color: #000080; /* Change background color to dark blue on hover */
+  color: #fff; /* Change text color to white on hover */
+}
+
+.selected {
+  background-color: #000080; /* Change background color to dark blue for the selected graph */
+  color: #fff; /* Change text color to white for the selected graph */
+}
+
+.customerBox {
+  width: 250px; /* Adjust the width of the square boxes */
+  height: 300px; /* Ensure square dimensions */
+  background-color: #fff; /* Background color of the square boxes */
+	border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .customerBox {
+		width: 150px; /* Adjust the width of the square boxes */
+		height: 300px; /* Ensure square dimensions */
+		background-color: #fff; /* Background color of the square boxes */
+		border-radius: 8px;
+	}
+}
+
+.centered-circle {
+  width: 180px;
+  height: 180px;
+	border: 2px solid transparent; /* Remove border for the circle */
+	border-radius: 50%; /* Make it a circle */
+  border-radius: 50%; /* Make it a circle */
+  box-shadow: 0 0 20px 10px #cccccc; /* Apply a diffused border effect */
+}
+
+@media (max-width: 768px) {
+  .centered-circle {
+		width: 100px;
+		height: 150px;
+		border: 2px solid transparent; /* Remove border for the circle */
+		border-radius: 50%; /* Make it a circle */
+		border-radius: 50%; /* Make it a circle */
+		box-shadow: 0 0 10px 7px #cccccc; /* Apply a diffused border effect */
+	}
+}
+
+.inner-circle {
+  width: 80%;
+  height: 80%;
+  border: 2px solid transparent;
+  border-radius: 50%;
+  position: relative;
+}
+
+.inner-border {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.purple-border {
+  border: 20px solid #800080; /* 60% purple border */
+}
+
+.dataBox {
+  width: 990px; /* Adjust the width of the square boxes */
+  height: 230px; /* Ensure square dimensions */
+  background-color: #fff; /* Background color of the square boxes */
+	border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+  .dataBox {
+		width: 660px; /* Adjust the width of the square boxes */
+		height: 130px; /* Ensure square dimensions */
+		background-color: #fff; /* Background color of the square boxes */
+		border-radius: 8px;
+	}
+}
+.search-container input {
+  width: 130px; /* Adjust the width as needed */
+}
+
+@media (max-width: 768px) {
+  .search-container input {
+		width: 80px; /* Adjust the width as needed */
+	}
+}
+
+
+/* ... (Remaining CSS code) ... */
